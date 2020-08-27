@@ -1,1 +1,1 @@
-# json2jsonlines
+# pyjsonlines
