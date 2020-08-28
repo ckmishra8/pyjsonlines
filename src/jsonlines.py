@@ -6,16 +6,16 @@ from src.utility import Utility
 
 def json2jsonl(in_take, file=None):
     """
-    Method to write json data as jsonlines files. This method
-    returns as Jsonlines if no output file path is passed else
-    returns None but creates a file with Jsonlines content.
+    Method to write json data as Jsonlines/ndjson files. This method
+    returns as Jsonlines/ndjson if no output file path is passed else
+    returns None but creates a file with Jsonlines/ndjson content.
 
     Args:
         in_take: Input json data. A Json file or Json data.
-        file: Jsonlines Output file path.
+        file: Jsonlines/ndjson Output file path.
 
     Returns:
-        Jsonlines content.
+        Jsonlines/ndjson content.
 
     """
     output_content = StringIO()
@@ -31,11 +31,11 @@ def json2jsonl(in_take, file=None):
 
 def jsonl2json(in_take, file=None):
     """
-    Method to read jsonlines data as json files.
+    Method to read Jsonlines/ndjson data as json files.
 
     Args:
         in_take: Input json data. A Json file or Json data.
-        file: Jsonlines Output file path.
+        file: Jsonlines/ndjson Output file path.
 
     Returns:
         None
