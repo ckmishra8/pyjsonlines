@@ -19,7 +19,7 @@ def json2jsonl(in_take, file=None):
 
     """
     output_content = StringIO()
-    in_take = loads(Utility.get_file_content(in_take))
+    in_take = Utility.get_file_content(in_take)
     if not isinstance(in_take, dict):
         for line in in_take:
             output_content.write(dumps(line) + '\n')
