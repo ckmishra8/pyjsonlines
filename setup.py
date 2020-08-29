@@ -7,6 +7,7 @@ classifiers = [
     'Intended Audience :: System Administrators',
     'License :: OSI Approved :: BSD License',
     'Programming Language :: Python',
+    'Programming Language :: Python :: 2.7',
     'Programming Language :: Python :: 3',
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
@@ -21,7 +22,7 @@ classifiers = [
 
 setup(
     name='pyjsonlines',
-    version='1.1.9',
+    version='2.0.1',
     description='Library to convert Json to Jsonlines or ndjson and Jsonlines or ndjson to Json.',
     long_description=open('README.rst').read(),
     url='https://github.com/thisischandanmishra/pyjsonlines',
