@@ -50,8 +50,8 @@ class Utility:
         """
         if isinstance(in_take, dict):
             return [in_take]
-        elif isinstance(in_take, list):
-            return in_take
         elif exists(in_take):
             return Utility.reader(in_take)
+        elif isinstance(in_take, list) or isinstance(in_take, str):
+            return in_take
         raise ValueError('Input type is not valid.')
