@@ -21,7 +21,7 @@ classifiers = [
 
 setup(
     name='pyjsonlines',
-    version='1.1.8',
+    version='1.1.9',
     description='Library to convert Json to Jsonlines or ndjson and Jsonlines or ndjson to Json.',
     long_description=open('README.rst').read(),
     url='https://github.com/thisischandanmishra/pyjsonlines',
