@@ -21,7 +21,7 @@ classifiers = [
 
 setup(
     name='pyjsonlines',
-    version='1.1.1',
+    version='1.1.8',
     description='Library to convert Json to Jsonlines or ndjson and Jsonlines or ndjson to Json.',
     long_description=open('README.rst').read(),
     url='https://github.com/thisischandanmishra/pyjsonlines',
@@ -29,7 +29,7 @@ setup(
     author_email='devchandankumar2@gmail.com',
     license='MIT',
     classifiers=classifiers,
-    keywords='jsonl2json jsonlines json2jsonl pyndjson',
+    keywords='jsonl2json jsonlines json2jsonl pyndjson pyjsonlines',
     packages=find_packages(),
     install_requires=['six']
 )
